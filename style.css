@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.restaurant-name {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.social-icons a img {
+    height: 30px;
+}
+
+/* Add styles for other sections as needed */
+
+#home {
+    position: relative;
+    background-image: url("./res/pizza1\ 1.png");
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shade {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    color: white;
+}
+
+.main-contain-title {
+    margin-top: 15rem;
+    margin-left: 7rem;
+    font-size: 4rem;
+}
+
+.line {
+    height: .7rem;
+    width: 70%;
+    margin-left: 7rem;
+    border: none;
+    background-color: #F24C4C;
+}
+
+.main-contain-info {
+    margin-left: 7rem;
+    font-weight: lighter;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+/* about-section css */
+
+#about {
+    height: fit-content;
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    padding: 2rem 2rem 1rem;
+    width: fit-content;
+    margin: auto;
+    border-bottom: .5rem solid #F24C4C;
+}
+
+.about-page-info-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+
+.about-page-info-container img {
+    width: 40vw;
+}
+
+.about-info {
+    width: 30vw;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    border-top: .4rem solid #F24C4C;
+    line-height: 1.25rem;
+}
+
+/* menu-section css */
+
+#menu {
+    height: fit-content;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.menu-container {
+    padding: 0 7rem;
+}
+
+.menu-info {
+    line-height: 1.5rem;
+    padding: 3rem;
+    font-size: 1.25rem;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.item-info {
+    width: 100%;
+}
+
+.item-title {
+    color: yellow;
+}
+
+/* carousel-section css */
+
+.carousel {
+    background-color: black;
+    color: white;
+}
+
+#carousel-container {
+    padding: 5rem;
+    border-radius: 15px;
+}
+
+#prev-button {
+    /* left: -6rem; */
+}
+
+#next-button {
+    /* right: -6rem; */
+}
+
+.gallery {
+    background-color: black;
+    color: white;
+    padding: 7rem;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.img-con img{
+    width: 100%;
+}
+
+.c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c3 img{
+    height: 100%;
+}
